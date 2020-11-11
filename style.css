@@ -1,0 +1,22 @@
+/* global */
+
+/* Navigation */
+.nav {
+  background-image: url(https://asaransom.com/wp-content/uploads/2018/12/shopping-in-east-aurora-ny-1500x609.jpg);
+  display: flex;
+  flex-direction: row;
+  font-family: inherit;
+  font-size: 250%;
+}
+
+.search {
+  display: flex;
+  font-size: 40px;
+}
+
+.side {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  font-size: 50px;
+}
