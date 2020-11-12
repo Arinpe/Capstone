@@ -3,6 +3,7 @@ img {
   width: 30%;
   height: 40%;
 }
+
 @media only screen and (max-width: 768px){
   .nav {
     color: #d35266;
