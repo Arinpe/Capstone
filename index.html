@@ -4,25 +4,56 @@
 <title>store</title>
 <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 <body>
   <!-- Navigation   -->
-  <nav class="nav">
-    <div class="nav-top">
-        <h2>BOLD STORE <span class="iconify" data-icon="logos:shopify" data-inline="false"></span></h2>
-        </div>
-        <div class="search">
-          <a href="#"><input type="button" value="search" ><i class="fas fa-search"></i></a>
-        </div>
-        <div class="side">
-           <a href=""><h3><span class="iconify" data-icon="mdi:emoticon-cool-outline" data-inline="false"></span> login</h3></a> 
-            <h3 class="help">
-               <a href=""><span class="iconify" data-icon="clarity:help-info-line" data-inline="false"></span><b>help</b>
-               </h3></a> 
-              <a href=""><h5><span class="iconify" data-icon="el:shopping-cart-sign" data-inline="false"></span><b>shop</b></h5></a> 
-            </div> 
+ 
+  <nav>
+    <div class="main-nav">
+    <a href=""><h1>Bold Store</h1></a>
+    <p>Home for all kinds of wristwatches</p>
+  </div>
+  <button class="showcase-search-button background-black text-gray py-2 px-4 ml-md-2 rounded"
+  type="submit">Search</button>
+    </div>
+    <side-nav>
+   <a href=""> <h3>Home</h3></a>
+    <a href=""><h3>COLLECTION</h3></a>
+    <a href=""><h3>PURCHASE LIST</h3></a>
+    <a href=""><h3>Post An Ad</h3></a>
+    </side-nav>
   </nav>
+
+  <!-- content -->
+
+   <div class="store text-center">
+    <h1>Bold Store</h1>
+    <p>Home for all kinds of wristwatches</p>
+    <select name="category" id="category" class="d-block w-100 py-2 px-3 text-gray mb-1 mb-md-0">
+      <option value="leather">Leather Wristwatches</option>
+      <option value="Chain">Chain wristwatches</option>
+      <option value="Smart">Smart wristwatches</option>
+    </select>
+   <input type="text" placeholder="What are you searching?" class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
+   <input type="text" placeholder="Country/Region" class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
+    <input type="button" value="search">
+    <div class="Classic">
+      <h3>Classic Watches</h3>
+      <img src="/img/w9.jpeg" alt="classic1">
+      <p>Silver Chain wristwatch</p>
+     <p>
+      50$ <a href=""><span class="iconify" data-icon="icons8:buy" data-inline="false"></span>buy</a>
+     </p>
+      <img src="/img/w5.jpeg" alt="classic2">
+      <p>Silver Rolex wristwatch</p>
+      60$ <a href=""><span class="iconify" data-icon="icons8:buy" data-inline="false"></span>buy</a>
+      <img src="/img/w13.jpeg" alt="classic3">
+      <p>black & gold chain wristwatch</p>
+      20$ <a href=""><span class="iconify" data-icon="icons8:buy" data-inline="false"></span>buy</a>
+    </div>
+   </div>
 </body>
 
 </html>
