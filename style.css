@@ -4,9 +4,25 @@ img {
   height: 40%;
 }
 
-@media only screen and (max-width: 768px){
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+
+@media (min-width: 768px) {
   .nav {
-    color: #d35266;
-    border-radius: 1px solid red;
+   background-color: #d35266;
+    display: flex;
+    
+  }
+  .main-nav {
+    display: flex;
+  }
+  .side-nav {
+    display: flex;
+    flex-direction: row;
   }
 }
