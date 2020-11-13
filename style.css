@@ -9,20 +9,81 @@ img {
   top: 0;
   left: 0;
   z-index: 999;
+  display: flex;
+  cursor: pointer;
 }
 
-
-@media (min-width: 768px) {
+/* @mediaquery */
+@media (min-width: 320px) {
   .nav {
-   background-color: #d35266;
+   background-color: black;
     display: flex;
-    
+    color: #d35266;
+    height: 40px;
+    font-size: 10px;
   }
   .main-nav {
     display: flex;
   }
+
   .side-nav {
     display: flex;
     flex-direction: row;
+    margin-left: 7%;
   }
+  .button-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    margin-top:8px;
+    color: #888888
+  }
+
+  .store {
+    background-color:#d35266 ;
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+  }
+
+  .classic {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .leather-watch {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .smart-watch {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  /* footer */
+
+  .footer {
+     background-color:#383838;
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    grid-row: center;
+  }
+
+
 }
