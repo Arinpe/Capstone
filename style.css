@@ -4,22 +4,30 @@ img {
   height: 40%;
 }
 
+.wrapper {
+  max-width: 1310px;
+  margin: 0 auto;
+} 
+
+body {
+  overflow-x: hidden;
+}
+
 .nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
-  display: flex;
+  display: grid;
   cursor: pointer;
 }
 
-/* @mediaquery */
-@media (min-width: 320px) {
   .nav {
    background-color: black;
     display: flex;
     color: #d35266;
     height: 40px;
+    width: 100%;
     font-size: 10px;
   }
   .main-nav {
@@ -50,22 +58,19 @@ img {
     display: grid;
   }
 
-  .classic {
+  .watches {
     display: flex;
-    flex-direction: column;
-    width: auto;
+    width: 80%;
   }
 
   .leather-watch {
     display: flex;
-    flex-direction: column;
-    width: auto;
+    width: 80%;
   }
 
   .smart-watch {
     display: flex;
-    flex-direction: column;
-    width: auto;
+    width: 80%;
   }
 
   /* footer */
@@ -85,5 +90,7 @@ img {
     grid-row: center;
   }
 
-
-}
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
