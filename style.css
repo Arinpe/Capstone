@@ -1,7 +1,7 @@
 /* global */
 img {
-  width: 20%;
-  height: 30%;
+  width: 95%;
+  height: 90%;
 }
 
 .wrapper {
@@ -20,90 +20,83 @@ input {
   box-sizing: border-box;
 }
 
-.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
-  display: grid;
-  cursor: pointer;
-}
-
   .nav {
-   background-color: black;
+   background-color: rgb(32, 31, 31);
+   color: #fff;
     display: flex;
-    color: #d35266;
     height: 40px;
     width: 100%;
     font-size: 15px;
-    padding-bottom: 5px;
   }
-  .main-nav {
+
+  .left-nav{
+    padding-right: 20px;
+    align-self: center;
+    margin-left: 40px;
+  }
+
+  .right-nav{
     display: flex;
-  }
-
-  .side-nav {
-    display: flex;
-    flex-direction: row;
-    margin-left: 7%;
-  }
-  .button-nav {
-    display: flex;
-    flex-direction: row;
-    margin-left: 7%;
-    margin-top:8px;
-    color: #888888
-  }
-
-  .middle {
-    padding-top: 15px;
-    justify-content: center;
-  }
-  
-  .store {
-    background-color:#d35266 ;
-    text-align: center;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  
- .watches {
-  padding-top: 15px;
-  display: flex;
-}
-
-.leather-watch{
-  padding-top: 15px;
-  display: flex;
-}
-  
-  .smart-watch {
-    display: flex;
-    padding-top: 5%;
-   
-  }
-  /* footer */
-
-  .footer {
-     background-color:#383838;
-    text-align: center;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    display: grid;
-    justify-content: center;
-    margin: auto;
+    justify-items: space-around;
     align-items: center;
-    grid-row: center;
+    margin-left: 150px;
   }
 
-  .social {
+  .right-nav h2{
+    padding-right: 30px;
+    margin-left: 50px;
+  }
+
+  .middle-section{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #d35266;
+    color: #fff;
   }
+
+  .middle1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .middle1 h2{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+
+  .middle1 h4{
+   margin-top: -10px;
+    font-family: tahoma;
+    font-size: 20px;
+    word-spacing: 2px;
+  }
+
+  .middle2{
+    display: flex;
+  }
+
+  .carousel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .c-image{
+    height: 100px ;
+  }
+
+  .classic {
+    display: flex;
+    padding-top: 25px;
+    padding-left: 10px;
+  }
+
+  .leather-watch{
+    display: flex; 
+  }
+
+  .smart {
+    display: flex;
+    }
