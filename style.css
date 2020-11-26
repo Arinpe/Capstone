@@ -1,7 +1,7 @@
 /* global */
 img {
-  width: 70%;
-  height: 60%;
+  width: 400px;
+  height: 300px;
 }
 
 .wrapper {
@@ -29,21 +29,22 @@ input {
     padding-right: 20px;
     align-self: center;
     margin-right: 30px;
-    margin-left: 20px;
+    margin-left: 50px;
   }
 
   .right-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    margin-right: 60px;
+    list-style: none;
+    color: #fff;
   }
 
   .right-nav h2{
     padding-right: 30px;
     margin-right: 50px;
     font-size: 15px;
-    padding-right: 30px ;
   }
 
   .middle {
@@ -67,20 +68,47 @@ input {
   .classic {
     display: flex;
     margin-top: 5px;
-    margin-left: 10px;
-   padding-right: 50px;
-   border:#d35266;
+    margin-left: 15px;
    justify-content: space-between;
+  }
+
+  .classict {
+    color: #d35266;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .cross {
+    border: 2px solid #d35266;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
   .leather-watch {
     display: flex;
     margin-top: 5px;
+   margin-left: 15px;
+   justify-content: space-between;
   }
+
+.leather {
+  color: #d35266;
+  text-align: center;
+  font-size: 25px;
+}
 
   .smart-watch {
     display: flex;
     margin-top: 5px;
+    margin-left: 15px;
+    justify-content: space-between;
+  }
+
+  .smart {
+    color: #d35266;
+    text-align: center;
+    font-size: 25px;
   }
 
 
@@ -90,4 +118,24 @@ input {
     background: black;
     color: white;
     align-content: center;
+    margin-top: 10px;
   }
+
+  .last li {
+    list-style: none;
+  }
+
+  .footer-text {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+
+  .footer-copyright-right {
+    padding-left: 20px;
+  }
+
+  .text {
+    justify-content: center;
+  }
+
