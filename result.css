@@ -144,6 +144,23 @@ font-size: 35px;
 }
 
 
+.main-section-container {
+  display:flex;
+  margin-top: 20px;
+}
+
+.main-section-details {
+  padding-left: 15px;
+}
+
+.text {
+  color: #d35266;
+}
+
+.main-section-btn {
+  color: #d35266;
+  font-size: medium;
+}
 
  .last {
   background: black;
