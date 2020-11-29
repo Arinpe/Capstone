@@ -1,6 +1,177 @@
 /* global */
 img {
-    width: 30%;
-    height: 40%;
-  }
+  width: 400px;
+  height: 300px;
+}
+
+body {
+  font-family: helvetica bold;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ 
+a:hover {
+  text-decoration: none;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 a:hover {
+  text-decoration: none;
+  color: #d35266;
+}
+
+.wrapper {
+  max-width: 1310px;
+  margin: 0 auto;
+} 
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: rgb(32, 31, 31);
+  color: #fff;
+   display: flex;
+   height: 60px;
+   width: 100%;
+   font-size: 5px;
+ }
+
+ .left-nav{
+   padding-right: 20px;
+   align-self: center;
+   margin-right: 30px;
+   margin-left: 50px;
+   font-size: 25px;
+ }
+
+
+ .right-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 60px;
+  list-style: none;
+  color: #fff;
+  text-decoration: #fff;
+}
+
+.icon {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.fore {
+  font-size: 35px;
+}
+
+.icon1 {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.foree {
+  font-size: 35px;
+}
+
+.icon2 {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.free {
+font-size: 35px;
+}
+
+.right-nav h2{
+  padding-right: 30px;
+  margin-right: 50px;
+  font-size: 15px;
+}
+
+.middle {
+  justify-content: center;
+  background-color: #d35266;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+  height: 250px;
+ }
+
+
+ .store {
+  display: flex;
+  padding-left: 0.1rem;
+}
+
+.store select {
+  width: 170px;
+  padding-left: 25px;
+}
+
+.store input {
+  width: 170px;
+  padding-left: 25px;
+}
+
+
+.side-bar {
+  background-color: #888888;
+  margin-top: 30px;
+}
+
+.side {
+  background-color: #888888;
+}
+
+.side-box {
+  background-color: #888888;
+}
+
+
+
+ .last {
+  background: black;
+  color: white;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.last li {
+  list-style: none;
+}
+
+.last li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-text {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 7px;
+}
+
+.footer-copyright-right {
+  padding-left: 20px;
+}
+
+.text {
+  justify-content: center;
+}
 

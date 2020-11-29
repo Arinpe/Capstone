@@ -4,6 +4,29 @@ img {
   height: 300px;
 }
 
+body {
+  font-family: helvetica bold;
+}
+
+a {
+  text-decoration: none;
+  color: #d35266;
+}
+ 
+a:hover {
+  text-decoration: none;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 a:hover {
+  text-decoration: none;
+  color: #d35266;
+}
+
 .wrapper {
   max-width: 1310px;
   margin: 0 auto;
@@ -20,9 +43,10 @@ input {
    background-color: rgb(32, 31, 31);
    color: #fff;
     display: flex;
-    height: 40px;
+    height: 60px;
     width: 100%;
     font-size: 5px;
+    /* position: fixed; */
   }
 
   .left-nav{
@@ -32,14 +56,45 @@ input {
     margin-left: 50px;
   }
 
-  .right-nav{
+   .right-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 60px;
     list-style: none;
     color: #fff;
+    text-decoration: #fff;
   }
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.fore {
+ font-size: 18px;
+}
+
+.icon1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.foree {
+  font-size: 18px;
+}
+
+.icon2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.free {
+  font-size: 18px;
+}
 
   .right-nav h2{
     padding-right: 30px;
@@ -54,7 +109,22 @@ input {
    flex-direction: column;
    align-items: center;
    padding-bottom: 15px;
+   height: 250px;
   }
+
+  .pic {
+   padding-bottom: 15px;
+    padding-top: 18px;
+  }
+
+  .texts {
+    padding-left:15px;
+    padding-top: 10px;
+  }
+
+.watch {
+  background-color: #f1f1f1;
+}
 
   .store {
     display: flex;
@@ -62,34 +132,40 @@ input {
   }
 
   .store select {
-    width: 150px;
+    width: 170px;
+    padding-left: 25px;
+  }
+
+  .store input {
+    width: 170px;
+    padding-left: 25px;
   }
 
   .classic {
-    display: flex;
-    margin-top: 5px;
-    margin-left: 15px;
+    margin-top: 10px;
+    padding-left: 20px;
    justify-content: space-between;
+   display: flex;
   }
 
   .classict {
     color: #d35266;
     text-align: center;
     font-size: 25px;
+
   }
 
   .cross {
-    border: 2px solid #d35266;
     padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
   }
 
   .leather-watch {
-    display: flex;
-    margin-top: 5px;
-   margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
    justify-content: space-between;
+   display: flex;
   }
 
 .leather {
@@ -125,9 +201,14 @@ input {
     list-style: none;
   }
 
+  .last li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   .footer-text {
     text-align: center;
-    margin-left: 5px;
+    margin-left: 40px;
     margin-right: 7px;
   }
 
