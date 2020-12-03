@@ -12,7 +12,7 @@ a {
   text-decoration: none;
   color: #fff;
 }
- 
+
 a:hover {
   text-decoration: none;
 }
@@ -30,7 +30,7 @@ h2 a:hover {
 .wrapper {
   max-width: 1310px;
   margin: 0 auto;
-} 
+}
 
 input {
   width: 50%;
@@ -42,22 +42,21 @@ input {
 .nav {
   background-color: rgb(32, 31, 31);
   color: #fff;
-   display: flex;
-   height: 60px;
-   width: 100%;
-   font-size: 5px;
- }
+  display: flex;
+  height: 60px;
+  width: 100%;
+  font-size: 5px;
+}
 
- .left-nav{
-   padding-right: 20px;
-   align-self: center;
-   margin-right: 30px;
-   margin-left: 50px;
-   font-size: 25px;
- }
+.left-nav {
+  padding-right: 20px;
+  align-self: center;
+  margin-right: 30px;
+  margin-left: 50px;
+  font-size: 25px;
+}
 
-
- .right-nav{
+.right-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,9 +67,9 @@ input {
 }
 
 .icon {
-display: flex;
-justify-content: center;
-align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .fore {
@@ -78,9 +77,9 @@ align-content: center;
 }
 
 .icon1 {
-display: flex;
-justify-content: center;
-align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .foree {
@@ -88,16 +87,16 @@ align-content: center;
 }
 
 .icon2 {
-display: flex;
-justify-content: center;
-align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .free {
-font-size: 35px;
+  font-size: 35px;
 }
 
-.right-nav h2{
+.right-nav h2 {
   padding-right: 30px;
   margin-right: 50px;
   font-size: 15px;
@@ -111,10 +110,9 @@ font-size: 35px;
   align-items: center;
   padding-bottom: 15px;
   height: 250px;
- }
+}
 
-
- .store {
+.store {
   display: flex;
   padding-left: 0.1rem;
 }
@@ -129,23 +127,29 @@ font-size: 35px;
   padding-left: 25px;
 }
 
-
 .side-bar {
-  background-color: #888888;
+  background-color: #eeeded;
   margin-top: 30px;
+  width: 25%;
+  padding-left: 15px;
 }
 
 .side {
-  background-color: #888888;
+  background-color: #eeeded;
 }
 
 .side-box {
-  background-color: #888888;
+  background-color: #eeeded;
 }
 
+.side-bar-separator {
+  justify-items: center;
+  align-items: center;
+  font-size: 20px;
+}
 
 .main-section-container {
-  display:flex;
+  display: flex;
   margin-top: 20px;
 }
 
@@ -162,7 +166,7 @@ font-size: 35px;
   font-size: medium;
 }
 
- .last {
+.last {
   background: black;
   color: white;
   align-content: center;
@@ -191,4 +195,3 @@ font-size: 35px;
 .text {
   justify-content: center;
 }
-

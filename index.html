@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>store</title>
 <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="responsive.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<link rel="stylesheet" type="text/css" href="./responsive.css">
 </head>
 
 <header>
   <!-- Navigation -->
-  <nav class="nav">      
-   <div class="left-nav"><h2><span class="iconify" data-icon="logos:shopify"></span>Bold Store</h2></div>
+  <nav class="_nav">      
+   <div class="left-nav"><h2></h2><span class="iconify" data-icon="logos:shopify"></span>Bold Store</h2></div>
 
    <div class="right-nav">
      <div class="icon">
@@ -31,7 +32,7 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
     <h2><a href="#">Purchase List</a></h2>
   </div>
     
-      <h2><button type="button">Post An Ad</button> </h2>
+      <h2><button class="ad" type="button">Post An Ad</button> </h2>
     </div>
     </nav>
     
@@ -139,19 +140,38 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
 
     <!-- wristwatches -->
 
-    <!-- clasic watches -->
-
+    <!-- clasics watches -->
     <div class="classict">
+      <div class="classict_1">
       <b>CLASSIC WATCHES</b>
+      <div class="sub-classic">
+        <div class="card sub-classic-card" style="width: 18rem;">
+          <img class="card-img-top" src="/img/w9.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Silver Chain wristwatch</h5>
+            <p class="card-text">
+              <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
+                <div class="popover__wrapper">
+                    <button class="btn">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="popover__content">
+                        <ul class="popover-list mb-0">
+                            <li><a href="#">Add to cart</a> </li>
+                            <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
+                            <li> <a href="#">More details</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <span>$899.00</span>
+            </div>
+        </div>
     </div>
-
-    <div class="classic">
-    <div class="card" style="width: 18rem;">
+    <div class="card sub-classic-card" style="width: 18rem;">
       <img class="card-img-top" src="/img/w9.jpeg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Silver Chain wristwatch</h5>
-        <p class="card-text"><div class="text">
-
+        <p class="card-text">
           <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
             <div class="popover__wrapper">
                 <button class="btn">
@@ -165,72 +185,17 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
                     </ul>
                 </div>
             </div>
-
             <span>$899.00</span>
         </div>
     </div>
       </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/w5.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Silver Chain wristwatch</h5>
-          <p class="card-text"><div class="text">
-  
-            <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
-              <div class="popover__wrapper">
-                  <button class="btn">
-                      <i class="fas fa-plus"></i>
-                  </button>
-                  <div class="popover__content">
-                      <ul class="popover-list mb-0">
-                          <li><a href="#">Add to cart</a> </li>
-                          <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
-                          <li> <a href="#">More details</a> </li>
-                      </ul>
-                  </div>
-              </div>
-  
-              <span>$899.00</span>
-          </div>
-      </div>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/w13.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Black and Gold Chain wristwatch</h5>
-          <p class="card-text"><div class="text">
-  
-            <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
-              <div class="popover__wrapper">
-
-                  <div class="popover__content">
-                      <ul class="popover-list mb-0">
-                          <li><a href="#">Add to cart</a> </li>
-                          <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
-                          <li> <a href="#">More details</a> </li>
-                      </ul>
-                  </div>
-                  <button class="btn">
-                    <i class="fas fa-plus"></i>
-                </button>
-              </div>
-  
-              <span>$899.00</span>
-          </div>
-      </div>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
+    </div>
+    <div class="sub-classic">
+      <div class="card sub-classic-card" style="width: 18rem;">
         <img class="card-img-top" src="/img/w9.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Silver Chain wristwatch</h5>
-          <p class="card-text"><div class="text">
-  
+          <p class="card-text">
             <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
               <div class="popover__wrapper">
                   <button class="btn">
@@ -244,28 +209,70 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
                       </ul>
                   </div>
               </div>
-  
               <span>$899.00</span>
           </div>
       </div>
-        </div>
+  </div>
+  <div class="card sub-classic-card" style="width: 18rem;">
+    <img class="card-img-top" src="/img/w9.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Silver Chain wristwatch</h5>
+      <p class="card-text">
+        <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
+          <div class="popover__wrapper">
+              <button class="btn display-options">
+                  <i class="fas fa-plus"></i>
+              </button>
+              <div class="popover__content">
+                  <ul class="popover-list mb-0">
+                      <li><a href="#">Add to cart</a> </li>
+                      <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
+                      <li> <a href="#">More details</a> </li>
+                  </ul>
+              </div>
+          </div>
+          <span>$899.00</span>
       </div>
-
+  </div>
     </div>
+  </div>
+</div>
+</div>
+   
 
     <!-- leather-watches -->
 
-    <div class="leather">
-      <b>Leather Watches</b>
+    <div class="classict">
+      <div class="classict_1">
+      <b>LEATHER WATCHES</b>
+      <div class="sub-classic">
+        <div class="card sub-classic-card" style="width: 18rem;">
+          <img class="card-img-top" src="/./img/w3.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Silver Chain wristwatch</h5>
+            <p class="card-text">
+              <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
+                <div class="popover__wrapper">
+                    <button class="btn">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="popover__content">
+                        <ul class="popover-list mb-0">
+                            <li><a href="#">Add to cart</a> </li>
+                            <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
+                            <li> <a href="#">More details</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <span>$899.00</span>
+            </div>
+        </div>
     </div>
-
-    <div class="leather-watch">
-    <div class="card" style="width: 18rem;">
+    <div class="card sub-classic-card" style="width: 18rem;">
       <img class="card-img-top" src="/img/S3.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Silver Chain wristwatch</h5>
-        <p class="card-text"><div class="text">
-
+        <p class="card-text">
           <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
             <div class="popover__wrapper">
                 <button class="btn">
@@ -279,19 +286,17 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
                     </ul>
                 </div>
             </div>
-
             <span>$899.00</span>
         </div>
     </div>
       </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/w4.jpeg" alt="Card image cap">
+    </div>
+    <div class="sub-classic">
+      <div class="card sub-classic-card" style="width: 18rem;">
+        <img class="card-img-top" src="/img/Black & White Analogue Wrist Watch.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Silver Chain wristwatch</h5>
-          <p class="card-text"><div class="text">
-  
+          <p class="card-text">
             <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
               <div class="popover__wrapper">
                   <button class="btn">
@@ -305,19 +310,48 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
                       </ul>
                   </div>
               </div>
-  
               <span>$899.00</span>
           </div>
       </div>
-        </div>
-        </div>
+  </div>
+  <div class="card sub-classic-card" style="width: 18rem;">
+    <img class="card-img-top" src="/img/Black Leather Strap Wrist Watch.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Silver Chain wristwatch</h5>
+      <p class="card-text">
+        <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
+          <div class="popover__wrapper">
+              <button class="btn display-options">
+                  <i class="fas fa-plus"></i>
+              </button>
+              <div class="popover__content">
+                  <ul class="popover-list mb-0">
+                      <li><a href="#">Add to cart</a> </li>
+                      <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
+                      <li> <a href="#">More details</a> </li>
+                  </ul>
+              </div>
+          </div>
+          <span>$899.00</span>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+</div>
+   
 
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="/img/ca4.jpeg" alt="Card image cap">
+    <!-- smart Watches -->
+
+    <div class="classict">
+      <div class="classict_1">
+      <b>SMART WATCHES</b>
+      <div class="sub-classic">
+        <div class="card sub-classic-card" style="width: 18rem;">
+          <img class="card-img-top" src="./img/S1.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Silver Chain wristwatch</h5>
-            <p class="card-text"><div class="text">
-    
+            <p class="card-text">
               <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
                 <div class="popover__wrapper">
                     <button class="btn">
@@ -331,50 +365,85 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
                         </ul>
                     </div>
                 </div>
-    
                 <span>$899.00</span>
             </div>
         </div>
-          </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/img/w16.jpeg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Silver Chain wristwatch</h5>
-              <p class="card-text"><div class="text">
-      
-                <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
-                  <div class="popover__wrapper">
-                      <button class="btn">
-                          <i class="fas fa-plus"></i>
-                      </button>
-                      <div class="popover__content">
-                          <ul class="popover-list mb-0">
-                              <li><a href="#">Add to cart</a> </li>
-                              <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
-                              <li> <a href="#">More details</a> </li>
-                          </ul>
-                      </div>
+    </div>
+    <div class="card sub-classic-card" style="width: 18rem;">
+      <img class="card-img-top" src="./img/s2.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Silver Chain wristwatch</h5>
+        <p class="card-text">
+          <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
+            <div class="popover__wrapper">
+                <button class="btn">
+                    <i class="fas fa-plus"></i>
+                </button>
+                <div class="popover__content">
+                    <ul class="popover-list mb-0">
+                        <li><a href="#">Add to cart</a> </li>
+                        <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
+                        <li> <a href="#">More details</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <span>$899.00</span>
+        </div>
+    </div>
+      </div>
+    </div>
+    <div class="sub-classic">
+      <div class="card sub-classic-card" style="width: 18rem;">
+        <img class="card-img-top" src="./img/S3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Silver Chain wristwatch</h5>
+          <p class="card-text">
+            <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
+              <div class="popover__wrapper">
+                  <button class="btn">
+                      <i class="fas fa-plus"></i>
+                  </button>
+                  <div class="popover__content">
+                      <ul class="popover-list mb-0">
+                          <li><a href="#">Add to cart</a> </li>
+                          <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
+                          <li> <a href="#">More details</a> </li>
+                      </ul>
                   </div>
-      
-                  <span>$899.00</span>
+              </div>
+              <span>$899.00</span>
+          </div>
+      </div>
+  </div>
+  <div class="card sub-classic-card" style="width: 18rem;">
+    <img class="card-img-top" src="./img/w21.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Silver Chain wristwatch</h5>
+      <p class="card-text">
+        <div class="main-items-details-bottom d-flex justify-content-between align-items-center">
+          <div class="popover__wrapper">
+              <button class="btn display-options">
+                  <i class="fas fa-plus"></i>
+              </button>
+              <div class="popover__content">
+                  <ul class="popover-list mb-0">
+                      <li><a href="#">Add to cart</a> </li>
+                      <li class="popover-list-middle"> <a href="#">Send an inquiry</a> </li>
+                      <li> <a href="#">More details</a> </li>
+                  </ul>
               </div>
           </div>
-            </div>
-            </div>
-
+          <span>$899.00</span>
+      </div>
+  </div>
     </div>
+  </div>
+</div>
+</div>
+   
 
-    <!-- smart Watches -->
-
-    <div class="smart">
-      <b>Smart Watches</b>
-    </div>
-
-    <div class="smart-watch">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="/img/S1.jpg" alt="Card image cap">
+    <!-- <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="./img/S1.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Silver Chain wristwatch</h5>
         <p class="card-text"><div class="text">
@@ -400,7 +469,7 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/s2.jpeg" alt="Card image cap">
+        <img class="card-img-top" src="./img/s2.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Silver Chain wristwatch</h5>
           <p class="card-text"><div class="text">
@@ -426,7 +495,7 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
         </div>
 
         <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="/img/S3.jpg" alt="Card image cap">
+          <img class="card-img-top" src="./img/S3.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Silver Chain wristwatch</h5>
             <p class="card-text"><div class="text">
@@ -452,7 +521,7 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
           </div>
 
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/img/w21.jpg" alt="Card image cap">
+            <img class="card-img-top" src="./img/w21.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Silver Chain wristwatch</h5>
               <p class="card-text"><div class="text">
@@ -475,9 +544,7 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
               </div>
           </div>
             </div>
-            </div>
-
-    </div>
+            </div> -->
 
     
 
