@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>result</title>
 <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
@@ -10,10 +11,11 @@
 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+    
     <header>
         <!-- Navigation -->
-        <nav class="nav">      
-         <div class="left-nav"><h2><span class="iconify" data-icon="logos:shopify"></span>Bold Store</h2></div>
+        <nav class="_nav d-flex px-2">      
+         <div class="left-nav"><span class="iconify" data-icon="logos:shopify"></span><a href='./index.html'>Bold Store</a></div>
       
          <div class="right-nav">
            <div class="icon">
@@ -27,28 +29,28 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
         </div>
       
         <div class="icon2">
-        <span class="iconify free" data-icon="carbon:shopping-cart" data-inline="false"></span>
-          <h2><a href="#">Purchase List</a></h2>
+        <span class=" iconify free" data-icon="carbon:shopping-cart" data-inline="false"></span>
+          <h2 class="purchase"><a href="./result.html">Purchase List</a></h2>
         </div>
           
-            <h2><button type="button">Post An Ad</button> </h2>
+            <h2><button class="ad" type="button">Post An Ad</button> </h2>
           </div>
           </nav>
           
       
           <div class="middle">
-            <div class="bold"><h1>Bold Store </h1></div>
-            <p><b>Home for all kinds of wristwatches</b></p>
-            <div class="store">
-              <select name="category" id="category" class=" py-2 px-3 text-gray mb-1 mb-md-0">
+            <div class="d-flex flex-column align-items-center"><h1>Bold Store </h1>
+            <p><b>Home for all kinds of wristwatches</b></p></div>
+            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-center flex-md-row justify-content-center">
+              <select name="category" id="category" class=" py-2 px-2 text-gray mb-1 mb-md-0">
                 <option value="leather">All Categories</option>
                 <option value="leather">Leather Wristwatches</option>
                 <option value="Chain">Chain wristwatches</option>
                 <option value="Smart">Smart wristwatches</option>
               </select>
-             <input type="text" placeholder="What are you searching?" class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
-             <input type="text" placeholder="Country/Region" class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
-              <input type="button" value="search">
+             <input type="text" placeholder="What are you searching?" class="d-block w-100 py-2 px-3 text-gray mb-1 mb-md-0">
+             <input type="text" placeholder="Country/Region" class="d-block w-100 py-2 px-2 text-gray mb-1 mb-md-0">
+              <div class="pl-1"><input type="button" value="search"></div>
               </div>
             </div>
           </header>
@@ -112,9 +114,8 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
                         </label>
                     </div>
                 </div>
-
-
             </div>
+
             <div class="fill-section d-flex flex-column pl-md-5 px-3">
 
                 <div class="main-section-container  h-100">
