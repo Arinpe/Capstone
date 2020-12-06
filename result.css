@@ -1,4 +1,4 @@
-/* global *//* global */
+/* global */
 img {
   width: 400px;
   height: 300px;
@@ -14,7 +14,7 @@ body {
 
 a {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
 
 a:hover {
@@ -69,7 +69,6 @@ input {
   justify-content: center;
   font-size: 1.2rem;
   width: max-content;
-
 }
 
 .left-nav a {
@@ -220,9 +219,8 @@ h2 {
   }
 }
 
-
-@media screen and (max-width:320px) {
-  .nav{
+@media screen and (max-width: 320px) {
+  .nav {
     font-size: 2px;
     position: sticky;
     padding-left: 0;

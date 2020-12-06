@@ -73,7 +73,6 @@ input {
   justify-content: center;
   font-size: 1.2rem;
   width: max-content;
-
 }
 
 .left-nav a {
@@ -150,7 +149,6 @@ h2 {
 .classict_1 {
   padding: 0 10px;
 }
-
 
 .classic {
   margin-top: 10px;
@@ -265,30 +263,29 @@ h2 {
     display: none;
   }
 
+  @media screen and (max-width: 320px) {
+    ._nav {
+      font-size: 2px;
+      position: sticky;
+      padding-left: 0;
+    }
 
-@media screen and (max-width:320px) {
-  ._nav{
-    font-size: 2px;
-    position: sticky;
-    padding-left: 0;
+    .section-container {
+      flex-direction: column;
+    }
+
+    .icon2 {
+      display: none;
+    }
+
+    .sub-classic {
+      justify-content: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .sub-classic-card {
+      flex: 1;
+    }
   }
-
-  .section-container {
-    flex-direction: column;
-  }
-
-  .icon2 {
-    display: none;
-  }
-
-  .sub-classic {
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .sub-classic-card {
-    flex: 1;
-  }
-
 }
