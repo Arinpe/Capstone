@@ -32,7 +32,8 @@ This project is a part from Microverse program, designed to learn how to use pos
 
 **See the Source Page via the link below**
 
-[Source Page Link](http://127.0.0.1:5500/index.html)
+[Source Page Link](http://127.0.0.1:5500/index.html 
+        https://raw.githack.com/Arinpe/Capstone/perfumes/result.html)
 
 ## Author
 
