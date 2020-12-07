@@ -1,9 +1,8 @@
 # Capstone
 [](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bootstrap!
 
-This project is a part from Microverse program, designed to learn how to use position things were we exactly want them. Made with HTML/CSS by  Adetola Adesuyi
+This project is a part from Microverse program, designed to help student make use of everything that has been learnt in the cause of the program especially that of HTML AND CSS. Made with HTML/CSS by  Adetola Adesuyi
 
 
 ![screenshot](/img/capstone.png)
