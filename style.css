@@ -2,6 +2,7 @@
 img {
   width: 400px;
   height: 300px;
+  object-fit: cover;
 }
 
 .sub-classic {
@@ -62,6 +63,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  justify-items: space-around;
   list-style: none;
   color: #fff;
   text-decoration: #fff;

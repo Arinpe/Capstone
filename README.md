@@ -28,15 +28,13 @@ Mohammed Awad on Behance
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Arinpe/Capstone/perfumes/index.html)
+[Live Demo Link](https://raw.githack.com/Arinpe/Capstone/main/index.html)
 
 **See the page via the link above**
 
 **See the Source Page via the link below**
 
-[Source Page Link](http://127.0.0.1:5500/index.html)
-        (https://raw.githack.com/Arinpe/Capstone/perfumes/result.html)
-
+[Source Page Link]
 ## Author
 
 👤 **Adetola Adesuyi**
