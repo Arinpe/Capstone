@@ -1,9 +1,7 @@
-# Store
+# Bold Store
 [](https://img.shields.io/badge/Microverse-blueviolet)
 
-
-This is part of Microverse program, designed to help student make use of everything that has been learnt in the cause of the curriculunm especially that of HTML AND CSS. Made with HTML/CSS by  Adetola Adesuyi
-
+This is my HTML/Css capstone project in which I built a store that allows for the sale of wristwatches. While building it, I learnt how to make use of everything that I learnt in the cause of the curriculum especiall that of HTMl and Css
 
 ![screenshot](/img/capstone.png)
 
